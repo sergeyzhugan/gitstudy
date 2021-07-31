@@ -34,3 +34,11 @@ refactor(element): rename parameter x
     git config --unset user.email
     
     git config --remove-section user
+
+## Often commands
+
+    git status
+    git add script.js
+    git add .
+    git show l68124
+    git show —pretty=fuller
