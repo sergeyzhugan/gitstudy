@@ -9,11 +9,11 @@
 **what(where):make**
 
 what:
-    - feat
-    - test
-    - build
-    - refactor
-    - fix
+- feat
+- test
+- build
+- refactor
+- fix
 
 refactor(element): rename parameter x
     
