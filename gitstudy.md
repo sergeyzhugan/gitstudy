@@ -42,3 +42,20 @@ refactor(element): rename parameter x
     git add .
     git show l68124
     git show —pretty=fuller
+
+## Multichange in file
+
+    git add -p script.js
+
+## commit without add
+
+    git commit -am 'message'
+    git commit  'message' .gitignore
+
+## remove files
+
+    git rm ...
+    git rm -r ... // for folders
+    git rm --cashed // only from index
+    git rm -f // not save change
+    git mv <old> <new> 
