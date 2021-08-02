@@ -59,3 +59,17 @@ refactor(element): rename parameter x
     git rm --cashed // only from index
     git rm -f // not save change
     git mv <old> <new> 
+
+## branches
+
+    git branch
+    git branch -v
+    git checkout newbranch
+    git checkout -f branchname // chenges lose
+
+    git checkout -f HEAD // delete changes
+
+    git stash // save no-commit changes in stash befor checkout to another branch  
+    git chechout another branchname
+    git chechout mybranch
+    git stash pop // return changes from stash after checkout from another branch
